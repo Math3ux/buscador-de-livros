@@ -19,7 +19,6 @@ export const SearchBar = () => {
     const handleSearch = async () => {
         const result = await fetchBooks(query);
         setBooks(result);
-        console.log(result);
     };
 
     return (
